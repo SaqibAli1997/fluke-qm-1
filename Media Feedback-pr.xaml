@@ -97,7 +97,7 @@
     <InArgument x:TypeArguments="x:String" />
   </this:Media_Feedback_pr.secondApprover>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>1386,18722</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1386,17231</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="74">
@@ -185,43 +185,43 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Media_Feedback_pr" sap:VirtualizedContainerService.HintSize="1396,18657" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Media_Feedback_pr" sap:VirtualizedContainerService.HintSize="1396,17166" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="1354,18565" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="1354,17074" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
       <ueab:ExcelProcessScopeX.Body>
         <ActivityAction x:TypeArguments="ui:IExcelProcess">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1320,18479" sap2010:WorkflowViewState.IdRef="Sequence_26">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1320,16988" sap2010:WorkflowViewState.IdRef="Sequence_26">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="1278,18387" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1">
+            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="1278,16896" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1">
               <ueab:ExcelApplicationCard.Body>
                 <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1244,18121" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1244,16590" sap2010:WorkflowViewState.IdRef="Sequence_27">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Overview - Quality Management - Oracle Applications" sap:VirtualizedContainerService.HintSize="1202,18029" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d61b6b87-404b-4b7f-83ae-5d1cadb2456e" Version="V1">
+                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Overview - Quality Management - Oracle Applications" sap:VirtualizedContainerService.HintSize="1202,16498" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d61b6b87-404b-4b7f-83ae-5d1cadb2456e" Version="V1">
                       <uix:NApplicationCard.Body>
                         <ActivityAction x:TypeArguments="x:Object">
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1168,17813" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1168,16242" sap2010:WorkflowViewState.IdRef="Sequence_2">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:String" Name="prNumber" />
                               <Variable x:TypeArguments="x:String" Name="Today" />
@@ -551,7 +551,7 @@
                                   <uix:TargetAnchorable BrowserURL="https://fa-euid-dev1-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/FuseWelcome?_adf.ctrl-state=pa7n6fbkp_10&amp;fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&amp;_afrLoop=4675238010425461" DesignTimeRectangle="974, 172, 138, 30" ElementType="Text" FriendlyName="'Report Media Feedback'" FullSelectorArgument="&lt;webctrl aria-role='presentation' id='pt1:_FOr1:1:_FONSr2:0:MAt5:0:AP2:changeStatusActionsdraft::Scrol*' tag='TABLE' /&gt;&lt;webctrl isleaf='1' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' id='pt1:_FOr1:1:_FONSr2:0:MAt5:0:AP2:changeStatusActionsdraft::Scrol*' tag='TABLE' /&gt;&lt;webctrl isleaf='1' tag='TD' type='' aaname='Report Media Feedback' check:text='Report Media Feedback' /&gt;" Guid="c95d3d84-1aa3-46f6-b04f-c59e93ddb5f9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAI4AAAAiCAYAAACJI+GdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMeSURBVHhe7ZzNbeMwEIVVoAB3kuPGiHvYs61jighUR4AgRSSpgSsOOeIM/ySNN4fsPgEfEInk8PHxibYvGRwuXIYLwcFluoZfv58dAEcZPj6/HABHQXCACQQHmEBwgAkEB5hAcIAJBAeYQHCACQQHmFDBeTkPbhhyRnd91YO+jdebG4eLe6m0sbanOWubL0HnedbPN5ndE9fzNU4391btV+dtGoVHiUKfGaGv48tx3t31dL/OMjjZBpBBB001sxGc8bRoyfS1nm8jNqba3uf7ffnhwSlE8xvuEcbRBk43Wiy1qTpBbPFW0ps+LvV9rUf3wGMrJqX6ss2be3FXv4liPlpHrDVO7+tzpeN8SRujThyttRWOzeA0fPIc1hf3gNZJ4+SnQF+vnCv4HvqrPTB8qhw7cWgBPEkUHPsHgdym32Zq4xpSaC5668SZ5nLRy/ykMeoo9fZ0xDb/d3yuPWifSt3gdHwy6Yv9ajV6eqUvyVsRHLHuMH4/O77jpI0szGoaLkVnCY/39KaROSIo6+K4b8LX92OkGf6Zr5vPJd9iHtfS0TcwH5OgOTOveN62T0Z9KogeHxB5z8gaLe3x+XJ6t7zeQ+fECRPIRdbM4o1PBoi+VKt8a9e++YbtCA71oTHJvDw4hcaqDmGs1EEa9PjS/Eo48rasRvDJqK/wRQSnqbf0Xdb12q+Lp7W17aH/URVFcfG0QWkMk49N98IAagv35uDQ+MW0KY3Ng1M3o66D7psnQrveZnCqPhn1kS/ihFnve3pbc+V1635vccd3nNg/ttHfqwiddtmPNolrmILDc6V7uVF6Q4MO1U/piBpbwZF9qF5Cz5PR8cmkj+rV+vX10ry8n6smHSjp6xE2g5MvjsUF0iaTgOWXAB+bWkwQy+PWjVg3jPuFudT3nohaIGlIG0NGCt20jjiXXo/Qscy7HtVSh1zfMrZlbDc4noZPnsP64guVflWJel29Nd91cILnycu9qODcQ8tg8G+C4AATfy044P8CwQEmEBxgAsEBJhAcYALBASYQHGACwQEm8E8HgAn8mxNcpgvBwWW4nPsDYWx8JyOvqd0AAAAASUVORK5CYII=" InformativeScreenshot="7bc3bcca078b24058ff0c979089b23bd.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='1d7s2dgqvg' title='Media Feedback: MEDIA-00032(AFL) - Quality Management - Oracle Applications' /&gt;" SearchSteps="FuzzySelector, Image" />
                                 </uix:NClick.Target>
                               </uix:NClick>
-                              <ui:InterruptibleWhile DisplayName="While" sap:VirtualizedContainerService.HintSize="1084,825" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_9">
+                              <ui:InterruptibleWhile Condition="True" DisplayName="While" sap:VirtualizedContainerService.HintSize="1084,825" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_9">
                                 <ui:InterruptibleWhile.Body>
                                   <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1048,620" sap2010:WorkflowViewState.IdRef="Sequence_51">
                                     <sap:WorkflowViewStateService.ViewState>
@@ -609,9 +609,6 @@
                                     </uix:NCheckState>
                                   </Sequence>
                                 </ui:InterruptibleWhile.Body>
-                                <ui:InterruptibleWhile.Condition>
-                                  <Literal x:TypeArguments="x:Boolean" Value="True" />
-                                </ui:InterruptibleWhile.Condition>
                               </ui:InterruptibleWhile>
                               <uix:NClick ClickType="Single" DisplayName="Click 'Change Status'" sap:VirtualizedContainerService.HintSize="1084,156" sap2010:WorkflowViewState.IdRef="NClick_57" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d61b6b87-404b-4b7f-83ae-5d1cadb2456e" Version="V1">
                                 <uix:NClick.Target>
@@ -1523,7 +1520,7 @@
                                 </uix:NCheckState.Target>
                               </uix:NCheckState>
                             </Sequence>
-                            <Sequence sap2010:Annotation.AnnotationText="Workflow Tab" sap:VirtualizedContainerService.HintSize="1126,16898" sap2010:WorkflowViewState.IdRef="Sequence_58">
+                            <Sequence sap2010:Annotation.AnnotationText="Workflow Tab" sap:VirtualizedContainerService.HintSize="1126,15326" sap2010:WorkflowViewState.IdRef="Sequence_58">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1563,17 +1560,17 @@
                                   </uix:TargetAnchorable>
                                 </uix:NClick.Target>
                               </uix:NClick>
-                              <ui:InterruptibleWhile DisplayName="While" sap:VirtualizedContainerService.HintSize="1084,825" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_10">
+                              <ui:InterruptibleWhile Condition="True" DisplayName="While" sap:VirtualizedContainerService.HintSize="1084,786" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_10">
                                 <ui:InterruptibleWhile.Body>
-                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1048,660" sap2010:WorkflowViewState.IdRef="Sequence_59">
+                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1048,621" sap2010:WorkflowViewState.IdRef="Sequence_59">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Investigations'" sap:VirtualizedContainerService.HintSize="1006,568" sap2010:WorkflowViewState.IdRef="NCheckState_12" ScopeIdentifier="d61b6b87-404b-4b7f-83ae-5d1cadb2456e" Version="V1">
+                                    <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Investigations'" sap:VirtualizedContainerService.HintSize="1006,529" sap2010:WorkflowViewState.IdRef="NCheckState_12" ScopeIdentifier="d61b6b87-404b-4b7f-83ae-5d1cadb2456e" Version="V1">
                                       <uix:NCheckState.IfExists>
-                                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="476,312" sap2010:WorkflowViewState.IdRef="Sequence_39">
+                                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="476,313" sap2010:WorkflowViewState.IdRef="Sequence_39">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1621,9 +1618,6 @@
                                     </uix:NCheckState>
                                   </Sequence>
                                 </ui:InterruptibleWhile.Body>
-                                <ui:InterruptibleWhile.Condition>
-                                  <Literal x:TypeArguments="x:Boolean" Value="True" />
-                                </ui:InterruptibleWhile.Condition>
                               </ui:InterruptibleWhile>
                               <uix:NClick ClickType="Single" DisplayName="Click 'Change Status'" sap:VirtualizedContainerService.HintSize="1084,156" sap2010:WorkflowViewState.IdRef="NClick_29" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d61b6b87-404b-4b7f-83ae-5d1cadb2456e" Version="V1">
                                 <uix:NClick.Target>
@@ -1725,7 +1719,7 @@
                                   </uix:TargetAnchorable>
                                 </uix:NClick.Target>
                               </uix:NClick>
-                              <ui:InterruptibleWhile DisplayName="While" sap:VirtualizedContainerService.HintSize="1084,826" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_11">
+                              <ui:InterruptibleWhile Condition="True" DisplayName="While" sap:VirtualizedContainerService.HintSize="1084,786" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_11">
                                 <ui:InterruptibleWhile.Body>
                                   <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1048,621" sap2010:WorkflowViewState.IdRef="Sequence_60">
                                     <sap:WorkflowViewStateService.ViewState>
@@ -1783,9 +1777,6 @@
                                     </uix:NCheckState>
                                   </Sequence>
                                 </ui:InterruptibleWhile.Body>
-                                <ui:InterruptibleWhile.Condition>
-                                  <Literal x:TypeArguments="x:Boolean" Value="True" />
-                                </ui:InterruptibleWhile.Condition>
                               </ui:InterruptibleWhile>
                               <ui:InterruptibleWhile Condition="True" DisplayName="While" sap:VirtualizedContainerService.HintSize="1084,1493" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_12">
                                 <ui:InterruptibleWhile.Body>
@@ -1894,7 +1885,7 @@
                                           <ueab:WriteCellX DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="WriteCellX_31">
                                             <ueab:WriteCellX.Cell>
                                               <InArgument x:TypeArguments="ue:IReadWriteCellRef">
-                                                <mca:CSharpValue x:TypeArguments="ue:IReadWriteCellRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_111">Excel.Sheet["Media Feedback"].Cell["B14"]</mca:CSharpValue>
+                                                <mca:CSharpValue x:TypeArguments="ue:IReadWriteCellRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_113">Excel.Sheet["Media Feedback"].Cell["B17"]</mca:CSharpValue>
                                               </InArgument>
                                             </ueab:WriteCellX.Cell>
                                             <ueab:WriteCellX.Value>
@@ -1937,7 +1928,7 @@
                                           <ueab:WriteCellX DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="WriteCellX_32">
                                             <ueab:WriteCellX.Cell>
                                               <InArgument x:TypeArguments="ue:IReadWriteCellRef">
-                                                <mca:CSharpValue x:TypeArguments="ue:IReadWriteCellRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_112">Excel.Sheet["Media Feedback"].Cell["B14"]</mca:CSharpValue>
+                                                <mca:CSharpValue x:TypeArguments="ue:IReadWriteCellRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_114">Excel.Sheet["Media Feedback"].Cell["B17"]</mca:CSharpValue>
                                               </InArgument>
                                             </ueab:WriteCellX.Cell>
                                             <ueab:WriteCellX.Value>
@@ -2042,103 +2033,15 @@
                                   </Sequence>
                                 </ui:InterruptibleWhile.Body>
                               </ui:InterruptibleWhile>
-                              <ui:InterruptibleWhile Condition="True" DisplayName="While" sap:VirtualizedContainerService.HintSize="1084,1493" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2">
+                              <ui:InterruptibleWhile Condition="True" DisplayName="While" sap:VirtualizedContainerService.HintSize="1084,1218" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_3">
                                 <ui:InterruptibleWhile.Body>
-                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="848,1328" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1048,1053" sap2010:WorkflowViewState.IdRef="Sequence_13">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Approve'" sap:VirtualizedContainerService.HintSize="806,1236" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="d61b6b87-404b-4b7f-83ae-5d1cadb2456e" Version="V1">
-                                      <uix:NCheckState.IfExists>
-                                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="376,1020" sap2010:WorkflowViewState.IdRef="Sequence_8">
-                                          <sap:WorkflowViewStateService.ViewState>
-                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                            </scg:Dictionary>
-                                          </sap:WorkflowViewStateService.ViewState>
-                                          <uix:NClick ClickType="Single" DisplayName="Click 'Approve'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_36" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d61b6b87-404b-4b7f-83ae-5d1cadb2456e" Version="V1">
-                                            <uix:NClick.Target>
-                                              <uix:TargetAnchorable BrowserURL="https://fa-euid-dev1-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/FuseWelcome?_afrLoop=4838334048283020&amp;_adf.ctrl-state=7jbmqxj5h_89" DesignTimeRectangle="928, 282, 66, 28" ElementType="Button" FriendlyName="'Approve'" FullSelectorArgument="&lt;webctrl id='pt1:_FOr1:1:_FONSr2:0:MAt3:0:AP2:cb2' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='pt1:_FOr1:1:_FONSr2:0:MAt3:0:AP2:cb2' tag='BUTTON' type='' aaname='Approve' check:text='Approve' /&gt;" Guid="1037176b-ed14-4024-8381-250ff009ac00" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEYAAAAgCAYAAACvgw7DAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIGSURBVGhD7ZlNTsMwEIU5TyUWrJFYcLwsegwEEiLiFm3v0BwiomuTZ/slzz9pSdUFVeZJT5nIjj3zjZNNHp4eN85c2sDMOAHz8f7mTqcftzahZtSuLEYwGPhuv9zry3MyYQ1Gzahd4YxgQG2NUGjUDga8H8FAjNdqZWBgxMrAwIiVgYERKwMDI1YGBkasDK4D0+xc75/o3aGpjN+pIcZXgdnuAxao3zfVOfdoiPEVYBp3AJf+6Dp/3bmtjLcdVhrG/DWoa+N4ewz3Xbh6dZ/1dXkax9MZVKzF+ziPjdLm5TnOGWK8HIwkEDZPX6cAhgnHYgdQLcZjMYTB5NO5sl61WI5/OmxVHUughXlTA+YNMV4MJkkgSxzmifEgYE0y73KSNE/M1N0SfFqk38vPT5/Nc5jmcZ26IcYLweTJl8XcEkyxVt59v94ArtUGxXUK6Tp1Q4yXgYmF1cRibwnm0onhfd+n80qgfzPEeBGYsKEmOpgfRz3eg9LuxSQJNhYfCieoEsz5b0ww90ueSxqQw5w3xHgBmLiBJuCdFs9uHWLRSSFMeB9hDpq+TxUwMMF7ZU2B45r6nYMJ3avIuW6I8eKP7yWfPcbFq/S/DDE2MGKI8c3B3LOVgYERKwMDI1YGBkasDAyMWBmMYOz3yczvE/vhNvPDDcYAqK1NqFmhwAkY82QDU/XG/QLecQ+iCL3GGAAAAABJRU5ErkJggg==" InformativeScreenshot="7a7764df36390487f37b723223eef8fe.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='b2k5qtlkd' title='Problem Report: PR-00089(AFL) - Quality Management - Oracle Applications' /&gt;" SearchSteps="FuzzySelector, Image" />
-                                            </uix:NClick.Target>
-                                          </uix:NClick>
-                                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'User Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,216" sap2010:WorkflowViewState.IdRef="NTypeInto_18" ScopeIdentifier="d61b6b87-404b-4b7f-83ae-5d1cadb2456e" Version="V1">
-                                            <uix:NTypeInto.Target>
-                                              <uix:TargetAnchorable BrowserURL="https://fa-euid-dev1-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/FndOverview?fndGlobalItemNodeId=itemNode_QualityManagement_QualityManagement&amp;fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&amp;_adf.ctrl-state=fqkctd7r5_6&amp;_afrLoop=4521575045522306&amp;_afrWindowMode=0&amp;_afrWindowId=null&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrMFW=1102&amp;_afrMFH=559&amp;_afrMFDW=1366&amp;_afrMFDH=768&amp;_afrMFC=8&amp;_afrMFCI=0&amp;_afrMFM=0&amp;_afrMFR=96&amp;_afrMFG=0&amp;_afrMFS=0&amp;_afrMFO=0" DesignTimeRectangle="570, 461, 218, 28" ElementType="InputBox" FriendlyName="'younas.yaqoub@fluke.com'" FullSelectorArgument="&lt;webctrl id='_FOpt1:_FOr1:0:_FONSr2:0:MAt2:0:AP2:r3:0:it3::content' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl id='_FOpt1:_FOr1:0:_FONSr2:0:MAt2:0:AP2:r3:0:it3::content' tag='INPUT' type='text' aaname='User Name' /&gt;" Guid="e154d7cc-3640-46d3-b882-adfc0bc280c4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAN4AAAAgCAYAAAB9/8beAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQSSURBVHhe7ZyxbtswEIb1flmCPE3gpUOm7oUnA12C9gWyZc5cIIOXomtQdOoTlNWRR/K/E6lErm01yU/gAyyRPB55/y8ZHjwENja2szcaj41thVaM923/PXzcfQ0fPn0mhBwZ8ZZ4LLdiPOl4/PEr/Pz9hxByZMRb4rHcivHEla0JhJDjIB7LjcYj5EzQeISsAI1HyArQeISsAI1HyArQeISsAI1HyArQeKfi/iYMl7fhsdUHPO6uwjAMhut7N25/Gy5y3xf5fBPusH/CU9heNuKQ/wYa71Q8a7yHcC1mmozR+5uHek9i5etoQhrvtbPIeHebIVzsnsq1PK3LNTyVBxSGE2B8wkcRqTg2Y3+e58VW4qGI0rx8H/PJzObZjYtvn6uw3dm8JWaeY/fc2at+3pZ51iw+RwsYB/OV2LCmjYFmc8aLMcY97Wtfjon79+Ce67jOfM1ri2e414eIgLUlC994KKxYgFzMdMBZBLFgToA945lxWRyxiDm2ztFxdb70ybqNp38vz5m4ts/mlgyp68RxKjgVW9d4/kxy3jKv5GfFKeNibB/L5LnAeOYsXB4xx3oeiDlnt6bdI56t26/pa6/zXllmPBQ6igcKE8fhQbvC14ImcVThSOxOcSCGNV6PTp4eHxfHQZ8VOIjX7xv3Kp8nZ5KuZa0UL5kuvzViDkasOh/jwn2bV8N4O5efW8/OQV56P13HHGJetX62TjO1facsNF4qthx8Fc9434sMDxpFM1IL4otoi5OemADEwL6pOOqYSZ56vxXXCmWk5A3i0r4y9jnjQc51bN33ZE0Zk+fgZ4wFa8pe5ownc+Srrj1jt/8R3BuOm57t9H7JwZ2F3ZutLTnkxxURwWYsaPmaOeIOPV23jReF/5zxZE5P0IaZgrbynIkbhYJrQJ8VOOyhJbYco7VWvK779nHjGBWrxCp9kEvfeGgKOFuT40sN4GvTu5+uabzlLDeeFtiIVO9lEURhGgHmQ9e5i4yXxrVNIHNqsS2NPGfiJuFY4ea+KKI8D8fNzElr1f0Vs+pnuW/EibFMnnpt8kx903O2ueDapjatNeUamI5LtZmuqTWDvGQOjTfPAcazhSxoEdPXFxDNSCyW3o+/esWCWHHY4qiI45zx3j0WVQ2llPmu8Hldm+dc3BEVb4wrv7ZmgY3UPdiYyZQaD38JVbOUXzUhVhUl5INj3T56xjNnEd/u+Txeerb+IZbHTMfVWJ37NN4iDnzjvYZD/Mc8UexHR3JDMTeIQqZY3yrLjKdvtcnb7n/jGHme1HgjmmN9K1TSW5Sme8sc8MYjxwS/whYaZiRvCxqPkBWg8QhZARqPkBWg8QhZgabx+Ie2hJyO7h/a8i/cCTkd4q3mX7izsbGdr9F4bGxnbyH8BUjWp0btMytqAAAAAElFTkSuQmCC" InformativeScreenshot="968583b4bbe87d329f4fd6ac644a5d14.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pe4r6lakg' title='Problem Report: PR-00091 - Quality Management - Oracle Applications' /&gt;" SearchSteps="FuzzySelector, Image">
-                                                <uix:TargetAnchorable.Anchors>
-                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                    <uix:Target DesignTimeRectangle="500, 468, 63, 14" ElementType="Text" FriendlyName="'User Name'" FullSelectorArgument="&lt;webctrl parentid='_FOpt1:_FOr1:0:_FONSr2:0:MAt2:0:AP2:r3:0:it3' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='_FOpt1:_FOr1:0:_FONSr2:0:MAt2:0:AP2:r3:0:it3' tag='LABEL' type='' aaname='User Name' check:text='User Name' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEMAAAASCAYAAAAAGGMhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFuSURBVFhH7ZONbQMhDIW7IduwSsQed3NEt8VlChdjY/wIaUNUVZHCk6zEgH/48H3RkmnBcFownBYMJ4BxXAKFkOhQnzVa+2tJjUDpqgtZ/1G311vBCHGnE9beHMa5RWm8GJ6FPbvYSXtkP1Hi3xBpv5UNk8HIFjeJ+rluyyHr2d+S7cftkJrF9z0elCwHTiJrDsZtp1iKccOa+KKnr9KMFPB7CmMAoUpqRIrlnNS6r1v70twKu0KSnmot7UP7hT4gDnt6CUYr3tTHFr8UxiZGslgFyrlHvYwmr78UxrlHgYfMUt9Px/RnIn6z/kXQOG4Chv3HKalTN4L7NIyaozP/qABDEreLs3oYJksujTw8NwnDT19dw9wvwugnYyCAUS/YAvy3n6X7dbSgMOz5uEkY5rc1uHB9hFkYv0BkIYwsOcQJ1bpL9Pv+m4M9i5uHYZfoL1UMP6HnYThfzffOuoPxyVownBYMpwXDacEwEX0DRV8UptO8nzkAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
-                                                  </scg:List>
-                                                </uix:TargetAnchorable.Anchors>
-                                              </uix:TargetAnchorable>
-                                            </uix:NTypeInto.Target>
-                                            <uix:NTypeInto.Text>
-                                              <InArgument x:TypeArguments="x:String">
-                                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_32">username</mca:CSharpValue>
-                                              </InArgument>
-                                            </uix:NTypeInto.Text>
-                                          </uix:NTypeInto>
-                                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,216" sap2010:WorkflowViewState.IdRef="NTypeInto_19" ScopeIdentifier="d61b6b87-404b-4b7f-83ae-5d1cadb2456e" Version="V1">
-                                            <uix:NTypeInto.Target>
-                                              <uix:TargetAnchorable BrowserURL="https://fa-euid-dev1-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/FndOverview?fndGlobalItemNodeId=itemNode_QualityManagement_QualityManagement&amp;fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&amp;_adf.ctrl-state=fqkctd7r5_6&amp;_afrLoop=4521575045522306&amp;_afrWindowMode=0&amp;_afrWindowId=null&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrMFW=1102&amp;_afrMFH=559&amp;_afrMFDW=1366&amp;_afrMFDH=768&amp;_afrMFC=8&amp;_afrMFCI=0&amp;_afrMFM=0&amp;_afrMFR=96&amp;_afrMFG=0&amp;_afrMFS=0&amp;_afrMFO=0" DesignTimeRectangle="570, 497, 218, 28" ElementType="InputBoxPassword" FriendlyName="'Gosaas911'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' aaname='Password' /&gt;" Guid="35fe2f2c-7f4a-4d0c-a446-ab669b087a81" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAN4AAAAgCAYAAAB9/8beAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEmSURBVHhe7dwxagJBGIbhuZ+NeBqxSWGVPlgtpBFyATtr64DFNiGtSCpPkInjsmsIm0JY90/g+eApRnGx8MVuUjaz0Sc8s4B14b3Wb/mxeskPT8/AwEpbpbF2XXjljf37Rz6ePoGBlbZKY+268EqVfR8AhlEaayc8GInwIIDwIIDwIIDwIIDwIIDwIIDwIIDwIIDwIMCN4e3yPKWczubb5rXNojmnxe5y3lez5jxd533P+Viv8+TyjFle1QM9E/6Z28LbLpsffBfFNZqUlnlzOuTVtD2XsH6ev0VzNqkOgzyz97vCH+YfDwLcGB4wBOFBAOFBAOFBAOFBAOFBAOFBAOFBAOFBAOFBgN7wXGgL9/PrhbaucIf7KW31XuFuZuNNeGajL+cvUV8ZOvapwvgAAAAASUVORK5CYII=" InformativeScreenshot="39d15fc9f3cd0422603b020c355d62fb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pe4r6lakg' title='Problem Report: PR-00091 - Quality Management - Oracle Applications' /&gt;" SearchSteps="FuzzySelector, Image">
-                                                <uix:TargetAnchorable.Anchors>
-                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                    <uix:Target DesignTimeRectangle="506, 504, 57, 14" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl parentid='_FOpt1:_FOr1:0:_FONSr2:0:MAt2:0:AP2:r3:0:it2' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='_FOpt1:_FOr1:0:_FONSr2:0:MAt2:0:AP2:r3:0:it2' tag='LABEL' type='' aaname='Password' check:text='Password' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAD0AAAASCAYAAADomNYKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFZSURBVFhH7VTRrcMwCHwbZhtWibxHPUeVLdopeLYBG5/9pPRV/aick6zWAQ4OSH54QVyiV8El+tg33jY4FPmh9m/E40ZJB3F86oOEiejAh975Hopwun2v7NdFpxlHctN+Ria3Bb4ZQm42zwEbpFx9MZoH73/kDff8sD2nPYhd/Vs+4rC/JVr+W0LxVTJLXppwcMgJd2XRbSlx3m8WY356H/2gWWqrzcnothObKXh9vS1ROZAcfTOUI586oQItKDfHc+Z7iRHucT1dU6EhGajh5HrDsYnVacyLwdhWiHW7nX5bAsfCpb9patEVPgziM6J9Age/pgkzsoI62dEmMS6HTpRs4m4rrNljnjOim/97orsE/dSxIZ6nT+q/ERnGg7zuVQBhHd9EtNUiz/7zTgPErkWSTK2ffLPXohN8HBYgNmgK+Ji4IX4mOqHVcuLrvQou0avgEr0GmH8BhZiC3haimFMAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
-                                                  </scg:List>
-                                                </uix:TargetAnchorable.Anchors>
-                                              </uix:TargetAnchorable>
-                                            </uix:NTypeInto.Target>
-                                            <uix:NTypeInto.Text>
-                                              <InArgument x:TypeArguments="x:String">
-                                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_33">password</mca:CSharpValue>
-                                              </InArgument>
-                                            </uix:NTypeInto.Text>
-                                          </uix:NTypeInto>
-                                          <uix:NClick ClickType="Single" DisplayName="Click 'Approve'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_37" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d61b6b87-404b-4b7f-83ae-5d1cadb2456e" Version="V1">
-                                            <uix:NClick.Target>
-                                              <uix:TargetAnchorable BrowserURL="https://fa-euid-dev1-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/FndOverview?fndGlobalItemNodeId=itemNode_QualityManagement_QualityManagement&amp;fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&amp;_adf.ctrl-state=fqkctd7r5_6&amp;_afrLoop=4521575045522306&amp;_afrWindowMode=0&amp;_afrWindowId=null&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrMFW=1102&amp;_afrMFH=559&amp;_afrMFDW=1366&amp;_afrMFDH=768&amp;_afrMFC=8&amp;_afrMFCI=0&amp;_afrMFM=0&amp;_afrMFR=96&amp;_afrMFG=0&amp;_afrMFS=0&amp;_afrMFO=0" DesignTimeRectangle="774, 555, 66, 28" ElementType="Button" FriendlyName="'Approve'" FullSelectorArgument="&lt;webctrl id='_FOpt1:_FOr1:0:_FONSr2:0:MAt2:0:AP2:r3:0:cb1' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='_FOpt1:_FOr1:0:_FONSr2:0:MAt2:0:AP2:r3:0:cb1' tag='BUTTON' type='' aaname='Approve' check:text='Approve' /&gt;" Guid="bc233606-64ae-4788-880c-e41edd1f498f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEYAAAAgCAYAAACvgw7DAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM3SURBVGhD7ZlNTxsxEIb395GE/JuSTehf4FQ+Ek7tpb1VFR+bRGovPfVGkoqAyqUVUCBsCKGH0svUr8fe2LvrJaqqfuBYejWZnRl75omFgA1osXLXAoxjWWBev/1AT5+9pCdrL7wSZsbs5krAIPAqek/x5I6+398b+vHo/XgylbObcBIwoHZ+dU23d99oMr2jibK++OejWDLQKwGDKyULpqowkT8+GOhlgbm5nXotJ5ixSvDVOsHEk1saC/lqC8FI3Sjrme8Ecz2eeC0nmJFKeNh2qR4EFAjVu/Pk/x/WCeYqvqGREKyW9i3bWZVQpMJubp5Wbr2hfyleCGYe7YeAskqhsvvOGCvsqPhgm0rCL4Wr0sp4dZs+ytpj2qzCF7WwQYU2B3jepVDnorZ1zHupLyezdyrOsnt0yQnm8joWGj9gO9xorUOX7QY3157F92rcTNiGP+RhgwbtId5vMpBqkwbwVX2pNRS5RypXAOnr/drqrDb71nncR6l1JD7HNGhVRKwsamfnWPtWW+JMc46sdYK5EL8WI6HQJs3BtxtHnMEwiEx+TzXcRMOIK3DLAHVEG8s8QF+fF3FtLdLnm/lj2sVZMt9+3m+WRV2FNnpcx36Dds05cmwhmIckm1GHzOObw5lgeL8hwxADYbjZZ67lgcpywGy+8OXeIh7Z+3IPaZn75OvXwajBsoemm/o9YKzaTD78NtWw37INMAt0PjnBfBV/XRept4UD0aj5PJLNodme8HdWACagpa1DETukdQwS1GkHuQdNWkKu9qN6NlftY+29ErGv8s3z9XlWnTrHvW++isEIclZB4ushGzyUEefmyrR+IBqVN6ZO6wqifi5zk4abPDAkfj5Z+6cHULeC9+Lbk8QgdasYAvJVXEFkqS/CjOf4TjD4fwwSYLW0n7auOEPiRjJx45vEs0zcsH8jXnxjjMS0nSdeBMa+4vn1ec//VNx9Yy5HXqsYDAh6ap1gzkSCzyoEA3pmsvbT9jHGnWBOL67oTMhXmwsGrw5OPp9KejIRJJX1wT/5cpb/+gQvm56/eUefBBwk+iTMjNlzX7hhIQBquFI+CTObULAsMIs1WwswuYvoJ/Mn1i/mlCn4AAAAAElFTkSuQmCC" InformativeScreenshot="da8ca5cd0f7a95400ec2e6edbebf2e08.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pe4r6lakg' title='Problem Report: PR-00091 - Quality Management - Oracle Applications' /&gt;" SearchSteps="FuzzySelector, Image" />
-                                            </uix:NClick.Target>
-                                          </uix:NClick>
-                                          <ui:Break sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Break_2" />
-                                        </Sequence>
-                                      </uix:NCheckState.IfExists>
-                                      <uix:NCheckState.IfNotExists>
-                                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,250" sap2010:WorkflowViewState.IdRef="Sequence_9">
-                                          <sap:WorkflowViewStateService.ViewState>
-                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                            </scg:Dictionary>
-                                          </sap:WorkflowViewStateService.ViewState>
-                                          <uix:NClick ClickType="Single" DisplayName="Click 'IMG _FOpt1:_FOr1:0:_FON…'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_38" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d61b6b87-404b-4b7f-83ae-5d1cadb2456e" Version="V1">
-                                            <uix:NClick.Target>
-                                              <uix:TargetAnchorable BrowserURL="https://fa-euid-dev1-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/FndOverview?fndGlobalItemNodeId=itemNode_QualityManagement_QualityManagement&amp;fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&amp;_adf.ctrl-state=p8b0mwm3k_1&amp;_afrLoop=4828328798344001&amp;_afrWindowMode=0&amp;_afrWindowId=null&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrMFW=1920&amp;_afrMFH=892&amp;_afrMFDW=1920&amp;_afrMFDH=1080&amp;_afrMFC=8&amp;_afrMFCI=0&amp;_afrMFM=0&amp;_afrMFR=96&amp;_afrMFG=0&amp;_afrMFS=0&amp;_afrMFO=0" DesignTimeRectangle="1439, 283, 26, 26" ElementType="Icon" FriendlyName="'IMG _FOpt1:_FOr1:0:_FON…'" FullSelectorArgument="&lt;webctrl id='_FOpt1:_FOr1:0:_FONSr2:0:MAt2:0:AP2:ctb1::icon' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl id='_FOpt1:_FOr1:0:_FONSr2:0:MAt2:0:AP2:ctb1::icon' tag='IMG' type='' aaname='Refresh' /&gt;" Guid="80b45b02-d951-461d-a5ba-dd9ac57921cc" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHHSURBVEhL7ZZbSwJRFIX7PZaZlkUEPQRd6EaPIV2k6PeEZUmQ2EuidtUozV7MHrrXvzATHxsnEN2xNpyYmzbQTBK4YLGHs9ecb2bOmWE63E4HtcLf4HgsSpL0QXYJc4OhAmMgeXJMI8ND3w2rjbnBEHAG42rshAqDARaOGQwpA3ZasNpg2y1Y/xf89PhAxWKR0hfntLzgM8woLVimwYNeD0XCu1yV468vz3y+UCy6T72uLlVGaQjVFHigz033d7ecu8lfU7/HperPTk1QaGuTPj9lzgCu7CsNof4IBiSfy3FG6Cp7aXhX/kUfybJM9Xq94WOHUJuCMXn2MsN9rVLJU/J0d+rO2Q5ucP/8LKXrwRBqUzAeWTPtRcK6c6Ynxrj3VijoejCEanpz1Wo1zmk3l9Z9PU7OSZJk2IdQTYPL5TLn5qYnDfvCU+OjnLPsjsVa74S2DfvCwY0A5361xkqvrSxzDrsWu9cos+ibt2ZXa310kOAs3le8tzOT47ym2FCbgXWqVCrct+Q9Vtrr7qbDRJzzjWTpl0vrVf8SZTNpKpXeqVqt2vuttsqC1QbbbsFicMt+b1v2Qw9jAFdjlzC3gKrAf2sHfQFALhT5B9oEKgAAAABJRU5ErkJggg==" InformativeScreenshot="fd1f7de904124f8052d9aa3aad6ea153.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='tt52tdneg' title='Problem Report: PR-00086 - Quality Management - Oracle Applications' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
-                                            </uix:NClick.Target>
-                                          </uix:NClick>
-                                        </Sequence>
-                                      </uix:NCheckState.IfNotExists>
-                                      <uix:NCheckState.Target>
-                                        <uix:TargetAnchorable BrowserURL="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/FndOverview?fndGlobalItemNodeId=itemNode_product_management_product_development&amp;fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&amp;_adf.ctrl-state=jqml4xs2n_6&amp;_adf.no-new-window-redirect=true&amp;_adf.no-new-window-redirect=true&amp;_afrLoop=24737735228233140&amp;_afrWindowMode=2&amp;_afrWindowId=null&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrMFW=1366&amp;_afrMFH=580&amp;_afrMFDW=1366&amp;_afrMFDH=768&amp;_afrMFC=8&amp;_afrMFCI=0&amp;_afrMFM=0&amp;_afrMFR=96&amp;_afrMFG=0&amp;_afrMFS=0&amp;_afrMFO=0" DesignTimeRectangle="928, 282, 66, 28" ElementType="Button" FriendlyName="'Approve'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' aaname='Approve' check:text='Approve' /&gt;" Guid="f5f95fee-c503-48d1-957c-80fc21f62957" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEYAAAAgCAYAAACvgw7DAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIGSURBVGhD7ZlNTsMwEIU5TyUWrJFYcLwsegwEEiLiFm3v0BwiomuTZ/slzz9pSdUFVeZJT5nIjj3zjZNNHp4eN85c2sDMOAHz8f7mTqcftzahZtSuLEYwGPhuv9zry3MyYQ1Gzahd4YxgQG2NUGjUDga8H8FAjNdqZWBgxMrAwIiVgYERKwMDI1YGBkasDK4D0+xc75/o3aGpjN+pIcZXgdnuAxao3zfVOfdoiPEVYBp3AJf+6Dp/3bmtjLcdVhrG/DWoa+N4ewz3Xbh6dZ/1dXkax9MZVKzF+ziPjdLm5TnOGWK8HIwkEDZPX6cAhgnHYgdQLcZjMYTB5NO5sl61WI5/OmxVHUughXlTA+YNMV4MJkkgSxzmifEgYE0y73KSNE/M1N0SfFqk38vPT5/Nc5jmcZ26IcYLweTJl8XcEkyxVt59v94ArtUGxXUK6Tp1Q4yXgYmF1cRibwnm0onhfd+n80qgfzPEeBGYsKEmOpgfRz3eg9LuxSQJNhYfCieoEsz5b0ww90ueSxqQw5w3xHgBmLiBJuCdFs9uHWLRSSFMeB9hDpq+TxUwMMF7ZU2B45r6nYMJ3avIuW6I8eKP7yWfPcbFq/S/DDE2MGKI8c3B3LOVgYERKwMDI1YGBkasDAyMWBmMYOz3yczvE/vhNvPDDcYAqK1NqFmhwAkY82QDU/XG/QLecQ+iCL3GGAAAAABJRU5ErkJggg==" InformativeScreenshot="84b0bb077f85bdf1cb7846a51657e1b2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='dtvp15t9y' title='Engineering Change Order: UI-ECO-07 - Product Development - Oracle Applications' /&gt;" SearchSteps="FuzzySelector" />
-                                      </uix:NCheckState.Target>
-                                      <sap:WorkflowViewStateService.ViewState>
-                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                        </scg:Dictionary>
-                                      </sap:WorkflowViewStateService.ViewState>
-                                    </uix:NCheckState>
-                                  </Sequence>
-                                </ui:InterruptibleWhile.Body>
-                              </ui:InterruptibleWhile>
-                              <ui:InterruptibleWhile Condition="True" DisplayName="While" sap:VirtualizedContainerService.HintSize="1084,1178" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_3">
-                                <ui:InterruptibleWhile.Body>
-                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1048,1013" sap2010:WorkflowViewState.IdRef="Sequence_13">
-                                    <sap:WorkflowViewStateService.ViewState>
-                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                      </scg:Dictionary>
-                                    </sap:WorkflowViewStateService.ViewState>
-                                    <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Actions Pending'" sap:VirtualizedContainerService.HintSize="1006,921" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="d61b6b87-404b-4b7f-83ae-5d1cadb2456e" Version="V1">
+                                    <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Actions Pending'" sap:VirtualizedContainerService.HintSize="1006,961" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="d61b6b87-404b-4b7f-83ae-5d1cadb2456e" Version="V1">
                                       <uix:NCheckState.IfExists>
                                         <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="476,705" sap2010:WorkflowViewState.IdRef="Sequence_11">
                                           <sap:WorkflowViewStateService.ViewState>
@@ -2263,7 +2166,7 @@
                                   </uix:TargetAnchorable>
                                 </uix:NClick.Target>
                               </uix:NClick>
-                              <ui:InterruptibleWhile DisplayName="While" sap:VirtualizedContainerService.HintSize="1084,826" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_15">
+                              <ui:InterruptibleWhile Condition="True" DisplayName="While" sap:VirtualizedContainerService.HintSize="1084,826" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_15">
                                 <ui:InterruptibleWhile.Body>
                                   <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1048,661" sap2010:WorkflowViewState.IdRef="Sequence_70">
                                     <sap:WorkflowViewStateService.ViewState>
@@ -2321,9 +2224,6 @@
                                     </uix:NCheckState>
                                   </Sequence>
                                 </ui:InterruptibleWhile.Body>
-                                <ui:InterruptibleWhile.Condition>
-                                  <Literal x:TypeArguments="x:Boolean" Value="True" />
-                                </ui:InterruptibleWhile.Condition>
                               </ui:InterruptibleWhile>
                               <ui:InterruptibleWhile Condition="True" DisplayName="While" sap:VirtualizedContainerService.HintSize="1084,1493" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_4">
                                 <ui:InterruptibleWhile.Body>
